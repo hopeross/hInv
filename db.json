@@ -26,6 +26,15 @@
       "misc": "citrus",
       "size": "16oz",
       "quantity": 3
+    },
+    {
+      "id": 4,
+      "category": "Personal",
+      "name": "Shampoo",
+      "brand": "Not Your Mothers",
+      "misc": "n/a",
+      "size": "8oz",
+      "quantity": "1"
     }
   ]
 }

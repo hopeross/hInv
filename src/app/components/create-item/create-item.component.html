@@ -1,0 +1,22 @@
+<h1>Create New Inventory Item</h1>
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <label>Item Category: </label>
+    <input type="text" name="category" [(ngModel)]="newItem.category">
+
+    <label>Item Name: </label>
+    <input type="text" name="name" [(ngModel)]="newItem.name">
+
+    <label>Item Brand: </label>
+    <input type="text" name="brand" [(ngModel)]="newItem.brand">
+
+    <label>Misc Info: </label>
+    <input type="text" name="misc" [(ngModel)]="newItem.misc">
+
+    <label>Item Size: </label>
+    <input type="text" name="size" [(ngModel)]="newItem.size">
+
+    <label>Item Quantity: </label>
+    <input type="text" name="quantity" [(ngModel)]="newItem.quantity">
+
+    <button type="submit">CREATE</button>
+</form>
