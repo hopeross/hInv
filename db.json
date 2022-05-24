@@ -1,0 +1,31 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "category": "cleaner",
+      "name": "dish soap",
+      "brand": "grove",
+      "misc": "lemon",
+      "size": "16oz",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "category": "cleaner",
+      "name": "window cleaner",
+      "brand": "grove",
+      "misc": "citrus",
+      "size": "16oz",
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "category": "cleaner",
+      "name": "all purpose cleaner",
+      "brand": "grove",
+      "misc": "citrus",
+      "size": "16oz",
+      "quantity": 3
+    }
+  ]
+}
