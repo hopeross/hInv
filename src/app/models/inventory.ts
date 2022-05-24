@@ -6,6 +6,4 @@ export class Inventory {
     misc: string = "";
     size: string = "";
     quantity: number = 0;
-    price: string = "";
-    purchaseDate: string = "01/01/2020"
 }
