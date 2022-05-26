@@ -1,6 +1,6 @@
 <h3>edit inventory</h3>
 <div>
-    <form #form="ngForm" (ngSubmit)="onSubmit()">
+    <form #form="ngForm">
         <label>Item Category: </label>
         <input type="text" name="category" [(ngModel)]="currentItem.category">
     
@@ -19,6 +19,7 @@
         <label>Item Quantity: </label>
         <input type="text" name="quantity" [(ngModel)]="currentItem.quantity">
     
-        <button type="submit">EDIT</button>
+        <button (click)="onSubmit()">EDIT</button>
+        <button (click)="onDelete(currentItem.id)">DELETE</button>
     </form>
 </div>

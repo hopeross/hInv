@@ -35,15 +35,6 @@
       "misc": "n/a",
       "size": "8oz",
       "quantity": "1"
-    },
-    {
-      "id": 5,
-      "category": "Test",
-      "name": "Test",
-      "brand": "Test",
-      "misc": "Test",
-      "size": "Test",
-      "quantity": "3"
     }
   ]
 }
