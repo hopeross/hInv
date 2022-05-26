@@ -8,6 +8,7 @@ import { InventoryDetailComponent } from './components/inventory-detail/inventor
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CreateItemComponent } from './components/create-item/create-item.component';
+import { EditItemComponent } from './components/edit-item/edit-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CreateItemComponent } from './components/create-item/create-item.compon
     InventoryListComponent,
     InventoryDetailComponent,
     HomeComponent,
-    CreateItemComponent
+    CreateItemComponent,
+    EditItemComponent
   ],
   imports: [
     BrowserModule,
