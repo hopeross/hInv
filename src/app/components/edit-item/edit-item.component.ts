@@ -27,4 +27,10 @@ export class EditItemComponent implements OnInit {
       this.router.navigateByUrl("/inventory");
     })
   }
+
+  onDelete(id: number){
+    this.inventoryService.deleteInventoryItemById(id).subscribe(response => {
+      this.router.navigateByUrl("/inventory");
+    })
+  }
 }
