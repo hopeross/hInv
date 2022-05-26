@@ -16,7 +16,7 @@
       "brand": "grove",
       "misc": "citrus",
       "size": "16oz",
-      "quantity": 2
+      "quantity": "5"
     },
     {
       "id": 3,
@@ -35,6 +35,15 @@
       "misc": "n/a",
       "size": "8oz",
       "quantity": "1"
+    },
+    {
+      "id": 5,
+      "category": "Test",
+      "name": "Test",
+      "brand": "Test",
+      "misc": "Test",
+      "size": "Test",
+      "quantity": "3"
     }
   ]
 }

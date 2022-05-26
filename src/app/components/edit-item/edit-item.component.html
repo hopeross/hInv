@@ -1,0 +1,24 @@
+<h3>edit inventory</h3>
+<div>
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <label>Item Category: </label>
+        <input type="text" name="category" [(ngModel)]="currentItem.category">
+    
+        <label>Item Name: </label>
+        <input type="text" name="name" [(ngModel)]="currentItem.name">
+    
+        <label>Item Brand: </label>
+        <input type="text" name="brand" [(ngModel)]="currentItem.brand">
+    
+        <label>Misc Info: </label>
+        <input type="text" name="misc" [(ngModel)]="currentItem.misc">
+    
+        <label>Item Size: </label>
+        <input type="text" name="size" [(ngModel)]="currentItem.size">
+    
+        <label>Item Quantity: </label>
+        <input type="text" name="quantity" [(ngModel)]="currentItem.quantity">
+    
+        <button type="submit">EDIT</button>
+    </form>
+</div>
