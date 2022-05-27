@@ -1,1 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+button {
+    border: 0px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    padding: 1em;
+    margin: .25em;
+    font-size: 1em;
+}
+
+div {
+    border: 2px solid hotpink
+}
+
+li {
+    border: 2px solid cyan;
+}
+a {
+    text-decoration: none;
+}
+
+.navContainer {
+    background-color: darkslateblue;
+    color: whitesmoke;
+    display: block;
+    text-align: left;
+}
+
+.leftNavItem {
+    margin: .5em;
+}
+
+.rightNavItem {
+    float: right;
+    margin: 1.25em;
+}
 

@@ -1,0 +1,9 @@
+<div>
+    <h3>Inventory List</h3>
+    <ul>
+        <li *ngFor="let item of inventoryList">
+            <a [routerLink]='["/inventory", item.id]'>{{item.name}}</a>
+            <button [routerLink]='["/edit", item.id]'>Edit</button>
+        </li>
+    </ul>
+</div>
